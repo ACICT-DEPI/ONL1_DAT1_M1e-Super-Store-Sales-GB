@@ -1,0 +1,38 @@
+05-10-2024 01:20:47.18 - INFO - Started validation of input parameters...
+05-10-2024 01:20:47.18 - INFO - Completed validation of input parameters
+05-10-2024 01:20:47.18 - INFO - Started handling of duplicates... Method: "AUTO"
+05-10-2024 01:20:47.23 - DEBUG - 0 missing values found
+05-10-2024 01:20:47.23 - INFO - Completed handling of duplicates in 0.040676 seconds
+05-10-2024 01:20:47.23 - INFO - Started handling of missing values...
+05-10-2024 01:20:47.25 - DEBUG - 0 missing values found
+05-10-2024 01:20:47.25 - INFO - Completed handling of missing values in 0.008285 seconds
+05-10-2024 01:20:47.25 - INFO - Started handling of outliers... Method: "WINZ"
+05-10-2024 01:20:50.37 - DEBUG - Outlier imputation of 1167 value(s) succeeded for feature "Sales"
+05-10-2024 01:20:51.08 - DEBUG - Outlier imputation of 170 value(s) succeeded for feature "Quantity"
+05-10-2024 01:20:53.27 - DEBUG - Outlier imputation of 856 value(s) succeeded for feature "Discount"
+05-10-2024 01:20:57.90 - DEBUG - Outlier imputation of 1881 value(s) succeeded for feature "Profit"
+05-10-2024 01:20:57.90 - INFO - Completed handling of outliers in 10.646742 seconds
+05-10-2024 01:20:57.90 - INFO - Started conversion of DATETIME features... Granularity: s
+05-10-2024 01:20:58.24 - DEBUG - Conversion to DATETIME succeeded for feature "Ship Date"
+05-10-2024 01:20:58.52 - DEBUG - Conversion to DATETIME succeeded for feature "Order Date"
+05-10-2024 01:20:58.54 - INFO - Completed conversion of DATETIME features in 0.6454 seconds
+05-10-2024 01:20:58.55 - INFO - Started encoding categorical features... Method: "AUTO"
+05-10-2024 01:20:58.55 - DEBUG - Encoding skipped for feature "Order ID"
+05-10-2024 01:20:58.56 - DEBUG - Encoding skipped for feature "Customer ID"
+05-10-2024 01:20:58.58 - DEBUG - Encoding to ONEHOT succeeded for feature "Ship Mode"
+05-10-2024 01:20:58.61 - DEBUG - Skipped encoding for DATETIME feature "Ship Date"
+05-10-2024 01:20:58.65 - DEBUG - Skipped encoding for DATETIME feature "Order Date"
+05-10-2024 01:20:58.65 - DEBUG - Encoding skipped for feature "Product ID"
+05-10-2024 01:20:58.65 - INFO - Completed encoding of categorical features in 0.113294 seconds
+05-10-2024 01:20:58.65 - INFO - Started feature type conversion...
+05-10-2024 01:20:58.66 - DEBUG - Conversion to type INT succeeded for feature "Row ID"
+05-10-2024 01:20:58.66 - DEBUG - Conversion to type INT succeeded for feature "Postal Code"
+05-10-2024 01:20:58.67 - DEBUG - Conversion to type FLOAT succeeded for feature "Sales"
+05-10-2024 01:20:58.67 - DEBUG - Conversion to type INT succeeded for feature "Quantity"
+05-10-2024 01:20:58.68 - DEBUG - Conversion to type FLOAT succeeded for feature "Discount"
+05-10-2024 01:20:58.70 - DEBUG - Conversion to type FLOAT succeeded for feature "Profit"
+05-10-2024 01:20:58.70 - DEBUG - Conversion to type INT succeeded for feature "Day"
+05-10-2024 01:20:58.70 - DEBUG - Conversion to type INT succeeded for feature "Month"
+05-10-2024 01:20:58.70 - DEBUG - Conversion to type INT succeeded for feature "Year"
+05-10-2024 01:20:58.70 - INFO - Completed feature type conversion for 9 feature(s) in 0.04924 seconds
+05-10-2024 01:20:58.70 - INFO - AutoClean process completed in 11.523188 seconds
